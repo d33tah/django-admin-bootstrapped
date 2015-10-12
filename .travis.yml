@@ -13,7 +13,7 @@ python:
 #    - pypy3
 
 install:
-    pip install --user django-bootstrap3 django-filer
+    pip install django-bootstrap3 django-filer
 
 script:
     python setup.py test
